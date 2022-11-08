@@ -1,13 +1,13 @@
 const layersOrder = [
     { name: 'background', number: 7 },
     { name: 'wings', number: 7 },
-    { name: 'tops', number: 60 },
+    { name: 'tops', number: 75 },
     { name: 'heads', number: 8 },
     { name: 'ears', number: 76 },
     { name: 'noises', number: 72 },
-    { name: 'lips', number: 74 },
+    { name: 'lips', number: 72 },
     { name: 'hair', number: 48 },
-    { name: 'eyes', number: 88 },
+    { name: 'eyes', number: 87 },
 ];
   
 const format = {
@@ -21,6 +21,6 @@ const rarity = [
     { key: "_sr", val: "super rare" },
 ];
 
-const defaultEdition = 500;
+const defaultEdition = 1000;
 
 module.exports = { layersOrder, format, rarity, defaultEdition };
